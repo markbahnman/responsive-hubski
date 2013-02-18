@@ -3,3 +3,15 @@
  * Copyright (C) 2013 Mark Bahnman
  * Licensed under the MIT License
  */
+
+ @-ms-viewport {
+  width: device-width;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+    
+}
