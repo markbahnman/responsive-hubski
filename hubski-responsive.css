@@ -13,5 +13,31 @@
 }
 
 @media (min-width: 320px) and (max-width: 720px) {
-    
+    .rightcoltop > .globaltop {
+        display: none;
+    }
+    .rightcoltop > .submittop {
+        display: none;
+    }
+    .rightcoltop > .searchtop {
+        display: none;
+    }
+    .leftcoltop {
+        display: none;
+    }
+    .topbar {
+        display: none;
+    }
+    .rightcoltop {
+        width: auto;
+    }
+    .savesplit {
+        display: none;
+    }
+    .feedcombub {
+        display: none;
+    }
+    .feedsubtitle {
+        display: none;
+    }
 }
