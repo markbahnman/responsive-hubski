@@ -13,7 +13,8 @@
   visibility: hidden;
 } 
 
-@media (min-width: 300px) and (max-width: 720px) {
+@media (min-width: 300px) and (max-width: 330px) {
+  /* main feed CSS */
   .rightcoltop {
        
     width: auto;
@@ -40,7 +41,9 @@
   }
 
   .feedcombub {
-    .hidden;
+    .topcommentor {
+        .hidden;
+    }
   }
 
   .feedsubtitle {
@@ -54,17 +57,35 @@
   }
 
   .postcontent {
-    width: 100%;
+    width: inherit;
     .feedtitle {
-      width: inherit;
+      width: 90%;
     }
   }
 
   .toplinks {
     word-spacing: -2px;
   }
+  .savesplit {
+    .hidden;
+  }
   
   .infobar {
     .hidden;
+  }
+
+  /* Individual post CSS */
+
+  .simplemenu {
+    .hidden;
+  }
+  .title {
+    width: 100%;
+  }
+  .subtitle {
+    .hidden;
+  }
+  .wholepub {
+    width: 100%;
   }
 }

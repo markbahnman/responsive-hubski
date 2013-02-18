@@ -10,7 +10,8 @@
   display: none;
   visibility: hidden;
 }
-@media (min-width: 300px) and (max-width: 720px) {
+@media (min-width: 300px) and (max-width: 330px) {
+  /* main feed CSS */
   .rightcoltop {
     width: auto;
   }
@@ -34,7 +35,7 @@
     display: none;
     visibility: hidden;
   }
-  .feedcombub {
+  .feedcombub .topcommentor {
     display: none;
     visibility: hidden;
   }
@@ -48,16 +49,35 @@
     margin-right: 0;
   }
   .postcontent {
-    width: 100%;
+    width: inherit;
   }
   .postcontent .feedtitle {
-    width: inherit;
+    width: 90%;
   }
   .toplinks {
     word-spacing: -2px;
   }
+  .savesplit {
+    display: none;
+    visibility: hidden;
+  }
   .infobar {
     display: none;
     visibility: hidden;
+  }
+  /* Individual post CSS */
+  .simplemenu {
+    display: none;
+    visibility: hidden;
+  }
+  .title {
+    width: 100%;
+  }
+  .subtitle {
+    display: none;
+    visibility: hidden;
+  }
+  .wholepub {
+    width: 100%;
   }
 }

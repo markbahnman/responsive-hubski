@@ -13,6 +13,8 @@
 // ==/UserScript==
 
 (function() {
+    var cssFile = 'https://dl.dropbox.com/u/6348934/hubski-responsive.css';
+
 $('head').prepend('<meta name="viewport" content="width=device-width, initial-scale=1.0">');
-$('head').append('<link href="https://dl.dropbox.com/u/6348934/hubski-responsive.css" rel="stylesheet" type="text/css"></link>');
+$('head').append('<link href='+cssFile+'" rel="stylesheet" type="text/css"></link>');
 })();
