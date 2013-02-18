@@ -56,4 +56,8 @@
   .toplinks {
     word-spacing: -2px;
   }
+  .infobar {
+    display: none;
+    visibility: hidden;
+  }
 }
