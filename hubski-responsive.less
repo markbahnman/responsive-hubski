@@ -3,56 +3,63 @@
  * Copyright (C) 2013 Mark Bahnman
  * Licensed under the MIT License
  */
+
 @-ms-viewport {
   width: device-width;
 }
+
 .hidden {
   display: none;
   visibility: hidden;
-}
+} 
+
 @media (min-width: 300px) and (max-width: 720px) {
   .rightcoltop {
+       
     width: auto;
+
+    .globaltop {
+      .hidden;
+    }
+
+    .submittop {
+      .hidden;
+    }
+
+    .searchtop {
+      .hidden;
+    }
   }
-  .rightcoltop .globaltop {
-    display: none;
-    visibility: hidden;
-  }
-  .rightcoltop .submittop {
-    display: none;
-    visibility: hidden;
-  }
-  .rightcoltop .searchtop {
-    display: none;
-    visibility: hidden;
-  }
+
   .leftcoltop {
-    display: none;
-    visibility: hidden;
+    .hidden;
   }
+
   .topbar {
-    display: none;
-    visibility: hidden;
+    .hidden;
   }
+
   .feedcombub {
-    display: none;
-    visibility: hidden;
+    .hidden;
   }
+
   .feedsubtitle {
-    display: none;
-    visibility: hidden;
+    .hidden;
   }
+
   .middlefeed {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
   }
+
   .postcontent {
     width: 100%;
+    .feedtitle {
+      width: inherit;
+    }
   }
-  .postcontent .feedtitle {
-    width: inherit;
-  }
+
   .toplinks {
     word-spacing: -2px;
   }
